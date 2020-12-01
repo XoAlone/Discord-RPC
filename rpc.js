@@ -41,5 +41,5 @@ client.on('ready', () => {
 client.login({
     clientId: clientId,
 }).catch(err => {
-  console.log(`An error has occured while trying to login using the client ID! ${err}`)
-})
+  console.log(`An error has occured while trying to login using the client ID! ${err}`);
+});
